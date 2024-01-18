@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-header-logo {
+    width: 25%;
+    height: 25%;
+}
+
+.group-list-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.element-list-header {
+    list-style-type: none;
+    padding: 0.5em 2em;
+    margin: 0 1em;
+    background-color: #FF00F5;
+    color: #15001F;
+    transition-duration: 400ms;
+}
+
+.element-list-header:hover {
+    background-color: rgb(138, 43, 226);
+}
+
+.link-list-header {
+    text-decoration: none;
+}
+
+.gradient-hero {
+    background-image: linear-gradient(135deg, rgba(0, 194, 255, 1) 0%, rgba(244, 0, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
