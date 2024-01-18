@@ -1,0 +1,23 @@
+body {
+    background-color: #15001F;
+    color: #fff;
+    margin: 0;
+    padding: 0 10% ;
+    top: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+li {
+margin-left: 0;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.black {
+    color: #000 !important;
+}
